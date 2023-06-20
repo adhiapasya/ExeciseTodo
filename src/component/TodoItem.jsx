@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 const TodoItem = ({ todo, toggleCompleted }) => {
     const getTodoTitleStyle = () => {
         if (todo.completed === true) {
@@ -24,8 +23,6 @@ const TodoItem = ({ todo, toggleCompleted }) => {
         </div>
     )
 }
-
-
 
 const style = {
 
